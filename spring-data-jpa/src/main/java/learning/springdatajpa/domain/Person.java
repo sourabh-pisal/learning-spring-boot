@@ -13,7 +13,6 @@ import static javax.persistence.GenerationType.AUTO;
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "people")
 public class Person {

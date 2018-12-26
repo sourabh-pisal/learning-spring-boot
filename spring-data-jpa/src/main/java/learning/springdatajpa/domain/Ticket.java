@@ -11,7 +11,6 @@ import static javax.persistence.GenerationType.AUTO;
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "tickets")
 public class Ticket {
@@ -19,6 +18,4 @@ public class Ticket {
     @GeneratedValue(strategy = AUTO)
     @Column(name = "id")
     private long id;
-    @Column(name = "event_id")
-    private long eventId;
 }
